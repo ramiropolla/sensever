@@ -8,7 +8,7 @@ static SoftwareSerial serial2(2, 3);
 
 void setup()
 {
-    Serial.begin(BAUDRATE);
+    Serial.begin(4800); /* opto-isolador */
     serial2.begin(BAUDRATE);
 }
 
